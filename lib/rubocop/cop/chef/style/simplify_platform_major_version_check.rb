@@ -31,7 +31,7 @@ module RuboCop
         #
         #   # good
         #
-        #   # check to see if we're on RHEL 7 on a RHEL 7.6 node where node['platform_version] is 7.6.1810
+        #   # check to see if we're on RHEL 7 on a RHEL 7.6 node where node['platform_version'] is 7.6.1810
         #   if node['platform_version'].to_i == 7
         #     # some code
         #   end
@@ -74,7 +74,7 @@ module RuboCop
 
           # see if the parent is a method and if it equals the passed in name
           #
-          # @param [Rubocop::AST:Node] node The rubocop ast node to search
+          # @param [RuboCop::AST::Node] node The rubocop ast node to search
           # @param [Symbol] name The method name
           #
           def parent_method_equals?(node, name)

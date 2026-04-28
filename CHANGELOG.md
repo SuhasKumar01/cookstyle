@@ -1,16 +1,21 @@
 # Cookstyle Changelog
 
- <!-- latest_release 8.6.0 -->
-## [v8.6.0](https://github.com/chef/cookstyle/tree/v8.6.0) (2026-01-14)
+ <!-- latest_release 8.6.5 -->
+## [v8.6.5](https://github.com/chef/cookstyle/tree/v8.6.5) (2026-02-13)
 
 #### Merged Pull Requests
-- Update to RuboCop 1.82.1 and enable a new cop [#1043](https://github.com/chef/cookstyle/pull/1043) ([tas50](https://github.com/tas50))
+- Update Rubocop to 1.84.2 + enable 1 new cop [#1053](https://github.com/chef/cookstyle/pull/1053) ([tas50](https://github.com/tas50))
 <!-- latest_release -->
 
 <!-- release_rollup since=7.32.8 -->
 ### Changes not yet released to rubygems.org
 
 #### Merged Pull Requests
+- Update Rubocop to 1.84.2 + enable 1 new cop [#1053](https://github.com/chef/cookstyle/pull/1053) ([tas50](https://github.com/tas50)) <!-- 8.6.5 -->
+- Disable sonarqube from the CI pipeline [#1055](https://github.com/chef/cookstyle/pull/1055) ([jaymzh](https://github.com/jaymzh)) <!-- 8.6.4 -->
+- Fix typos throughout the project [#1054](https://github.com/chef/cookstyle/pull/1054) ([tas50](https://github.com/tas50)) <!-- 8.6.3 -->
+- Lint modernization [#1052](https://github.com/chef/cookstyle/pull/1052) ([jaymzh](https://github.com/jaymzh)) <!-- 8.6.2 -->
+- Update the hab plan for removing lint roller [#1050](https://github.com/chef/cookstyle/pull/1050) ([sanghinitin](https://github.com/sanghinitin)) <!-- 8.6.1 -->
 - Update to RuboCop 1.82.1 and enable a new cop [#1043](https://github.com/chef/cookstyle/pull/1043) ([tas50](https://github.com/tas50)) <!-- 8.6.0 -->
 - Fix docs rake task and cop example comments [#1041](https://github.com/chef/cookstyle/pull/1041) ([IanMadd](https://github.com/IanMadd)) <!-- 8.5.5 -->
 - Update actions/checkout@v6 [#1037](https://github.com/chef/cookstyle/pull/1037) ([dafyddcrosby](https://github.com/dafyddcrosby)) <!-- 8.5.4 -->

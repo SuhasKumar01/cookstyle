@@ -1,3 +1,5 @@
+require: cookstyle
+
 # enable new cops for rubocop-performance
 AllCops:
   NewCops: enable
@@ -6,10 +8,17 @@ Chef/Style/CommentFormat:
   Exclude:
     - 'lib/rubocop/cop/chef/comments_format.rb'
 
-# Chef/Modernize/FoodcriticComments itself include an example Foocritic comment which alerts
+# Chef/Modernize/FoodcriticComments itself includes an example Foodcritic comment which alerts
 Chef/Modernize/FoodcriticComments:
   Enabled: false
 
 # reduces memory usage
 Style/FrozenStringLiteralComment:
   Enabled: true
+
+# The UnlessDefinedRequire cop is meant for Chef cookbooks, not for the cookstyle tool's own infrastructure files
+Chef/Ruby/UnlessDefinedRequire:
+  Exclude:
+    - 'Rakefile'
+    - 'cleanup_lint_roller.rb'
+    - 'tasks/**/*'
